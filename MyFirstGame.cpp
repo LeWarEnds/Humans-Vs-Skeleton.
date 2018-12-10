@@ -4,7 +4,7 @@
 
 int main() {
 
-	std::cout << "***** Welcome to Humans Vs skeletons ***** " << std::endl << std::endl;
+	std::cout << "***** Welcome to Humans Vs skeletons ***** " << std::endl << std::endl; // heading of the game when starts.
 
 	std::default_random_engine randomGenerator(time(NULL));
 	std::uniform_real_distribution<float> Attack(0.0f, 1.0f);
