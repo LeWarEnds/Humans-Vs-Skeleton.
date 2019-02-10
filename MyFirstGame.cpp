@@ -87,8 +87,8 @@ int main() {
 		std::cout << "There are " << Skeletons << " Skeletons left. " << std::endl;
 	}
 
-	std::cout << startHumans - Humans << " Humans Lost their lives. " << std::endl;
-	std::cout << startSkeletons - Humans << " Skeletons Lost their lives. " << std::endl;
+	std::cout << startHumans - Humans << " Humans Lost their lives. " << std::endl; // subtracting from the initial given humans.
+	std::cout << startSkeletons - Humans << " Skeletons Lost their lives. " << std::endl; // subtracting from the initial given skeltons
 
 	system("PAUSE");
 	return 0;
